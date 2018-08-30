@@ -72,7 +72,7 @@ class Song
   def self.create_from_filename(filename)
     @@all << self.new_from_filename(filename)
     song = self.new(filename[1])
-    puts split_filename[1]
+    puts filename[1]
 
   end
 
